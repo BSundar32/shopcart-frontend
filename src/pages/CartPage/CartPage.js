@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { updateCartItem, removeFromCart } from '../../features/cartSlice';
-import axios from 'axios';
+import axios from '../../utils/axiosConfig'; 
 import toast from 'react-hot-toast';
 import './CartPage.css';
 
